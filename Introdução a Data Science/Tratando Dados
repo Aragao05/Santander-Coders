@@ -1,0 +1,14 @@
+# arquivo de daos com os preços de aluguek da cidade de são paulo
+
+pd.read_exel('nome') #le um arquivo aexel
+
+# consertar linhas com dados errados 
+
+.loc[linha] =  reorna a linha chamada
+
+.replace('oque vai ser subtituido', 'oque vai substituir')
+
+# como alterar o dado:
+ voce acessa a linha e a coluan em que o dado está errado e substitui o dado usando replace
+
+

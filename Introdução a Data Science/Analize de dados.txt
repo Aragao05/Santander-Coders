@@ -1,0 +1,12 @@
+pd.read_csv('arquivo.csv')   
+# pd.read_csv faz a leitura de im arquivo csv que tenha sido salvo na sua maquina, se salvo em uma variavel esse arquivo pode ser modificado elterado e etc
+
+
+arquivo['coluna1'].value_counts() 
+# .value_counts() retorna a quantidade de vezes que um dado se repete na coluna especificada, ex: o nome bosta repetiu 30 vezes ele vai retorna 
+nome       qunatidae que le se repete 
+bosta     30
+
+
+arquivo.groupby(['coluna1'])['coluna2'].agg(['median', 'mean'])
+# arquivo.groupby agrupa dados permitindo fazer calculos com os dados agrupados, por exemplo tirar a media ou a somatoria de algo 
